@@ -31,7 +31,7 @@ data:
       gzip_disable "msie6";
 
       server {
-        listen {{ .values.configMap.port }};
+        listen {{ .Values.configMap.port }};
         server_name localhost;
 
         location / {
