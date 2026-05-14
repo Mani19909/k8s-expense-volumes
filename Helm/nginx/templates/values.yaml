@@ -1,7 +1,0 @@
-configMap:
-  port: 8080
-deployment:
-  replicas: 3
-  imageVersion: latest
-service:
-  nodePort: 32134
